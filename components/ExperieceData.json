@@ -1,0 +1,34 @@
+[
+  {
+  "id":1,
+  "img": "https://yt3.googleusercontent.com/ytc/AIf8zZTvwiYfMREK6iZtuxINhptvLzaDTTppg8nIOru1-Q=s176-c-k-c0x00ffffff-no-rj-mo",
+  "summary": [{"id":1,
+  "content":"Configured FPGA with basic Verilog Programs such as Counter,1 sec LED BLINK"},{"id":2,"content":"Currently on Project : Encryption and Decryption in Verilog language"}],
+  "company": "PinE Training Academy of VLSI & Embedded",
+  "role": "VLSI - Front end Hardware Digital Design",
+  "startDate":"June 2023",
+  "endDate":"Nov 2023",
+  "technologies":[{"id":1,"content":"Verilog"},
+  {"id":2,"content":"FPGA"},{"id":3,"content":"LogicGates"}]
+  },
+  {
+  "id":2,
+  "img": "",
+  "summary": [],
+  "company": "To be Added soon..",
+  "role": "",
+  "startDate":"",
+  "endDate":"",
+  "technologies":[]
+  },
+  {
+  "id":3,
+  "img": "",
+  "summary": [],
+  "company": "To be Added soon..",
+  "role": "",
+  "startDate":"",
+  "endDate":"",
+  "technologies":[]
+  }
+]

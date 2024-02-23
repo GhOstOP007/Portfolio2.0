@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import booklogo from "../media/BookSWAP.png";
 import Link from "next/link";
 
 type Props = {};

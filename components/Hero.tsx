@@ -4,7 +4,6 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
 import Link from "next/link";
-import Image from "next/image";
 
 type Props = {};
 
@@ -21,7 +20,7 @@ const Hero = (props: Props) => {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircle />
-      <Image
+      <img
         className="relative animate-bounce rounded-full h-40 w-40 object-cover"
         src="https://lh3.googleusercontent.com/a/ACg8ocLGIas3WdG0Lmt3dSxDajmHwjivKt0fmJDjQMJP4jeX1wI=s288-c-no"
         alt=""

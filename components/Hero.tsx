@@ -35,18 +35,18 @@ const Hero = (props: Props) => {
         </h1>
 
         <div className="p-5 max-sm:mt-5">
-          <Link href="#about">
+          <Link href="/#about">
             <button className="heroButton max-sm:text-[16px]">About</button>
           </Link>
-          <Link href="#experience">
+          <Link href="/#experience">
             <button className="heroButton max-sm:text-[16px]">
               Experience
             </button>
           </Link>
-          <Link href="#skills">
+          <Link href="/#skills">
             <button className="heroButton max-sm:text-[16px]">SKills</button>
           </Link>
-          <Link href="#projects">
+          <Link href="/#projects">
             <button className="heroButton max-sm:text-[16px]">Projects</button>
           </Link>
         </div>

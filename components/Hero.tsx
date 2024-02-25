@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
     words: [
       "Hi, The Name's Ishan Vishwakarma",
       "Guy-who-loves-coffee.tsx",
-      "<ButLovesToCodeMore/>",
+      "<But Loves To Code More/>",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -26,7 +26,7 @@ const Hero = (props: Props) => {
         alt=""
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 tracking-[15px]">
+        <h2 className="text-sm uppercase text-gray-500 tracking-[15px] max-sm:pl-[7px]">
           Software Engineer
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
@@ -34,20 +34,37 @@ const Hero = (props: Props) => {
           <Cursor cursorColor="orange" />
         </h1>
 
-        <div className="p-5">
+        <div className="p-5 max-sm:mt-5">
           <Link href="#about">
-            <button className="heroButton">About</button>
+            <button className="heroButton max-sm:text-[16px]">About</button>
           </Link>
           <Link href="#experience">
-            <button className="heroButton">Experience</button>
+            <button className="heroButton max-sm:text-[16px]">
+              Experience
+            </button>
           </Link>
           <Link href="#skills">
-            <button className="heroButton">SKills</button>
+            <button className="heroButton max-sm:text-[16px]">SKills</button>
           </Link>
           <Link href="#projects">
-            <button className="heroButton">Projects</button>
+            <button className="heroButton max-sm:text-[16px]">Projects</button>
           </Link>
         </div>
+        <Link
+          href="https://drive.google.com/file/d/1KW6RH8vIcNtYnNM1RcnsdFdsfE_97uf9/view?usp=sharing"
+          className="z-50 flex justify-center items-center"
+        >
+          <button className="mt-2 text-xl border border-White-500/40 bg-orange-500/50 rounded-lg px-4 py-1 shadow-2xl z-50 flex justify-center items-center uppercase tracking-[5px] space-x-1">
+            <svg
+              className="fill-current w-4 h-4 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <span>Download CV</span>
+          </button>
+        </Link>
       </div>
     </div>
   );

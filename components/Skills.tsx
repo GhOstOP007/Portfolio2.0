@@ -18,9 +18,9 @@ const Skills = (props: Props) => {
       </h3>
 
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 test-sm">
-        Hover Over a Skill for Current Proficiency
+        Hover Over a Skill for Current Profieciency
       </h3>
-      <div className="grid grid-cols-5 gap-5">
+      <div className="grid grid-cols-3 md:grid-cols-5 gap-5 mt-10">
         {/*Upperhalf */}
         <Skill
           img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
